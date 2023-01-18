@@ -1,0 +1,20 @@
+{
+  "name": "virtual-solution-consultant-slack-application",
+  "version": "1.0.0",
+  "description": "Slack application that integrates with OpenAi to answers questions related to Zendesk platform.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "author": "Gaurav Narkhede",
+  "license": "ISC",
+  "dependencies": {
+    "@slack/bolt": "^3.12.2",
+    "dotenv": "^16.0.3",
+    "openai": "^3.1.0"
+  },
+  "type": "module",
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
